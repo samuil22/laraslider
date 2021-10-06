@@ -4,17 +4,16 @@ namespace App\View\Components;
 
 use Illuminate\View\Component;
 
-class sliderItem extends Component
+class layout extends Component
 {
-    public $item;
     /**
      * Create a new component instance.
      *
      * @return void
      */
-    public function __construct($item)
+    public function __construct()
     {
-        $this->item = $item;
+        //
     }
 
     /**
@@ -24,6 +23,6 @@ class sliderItem extends Component
      */
     public function render()
     {
-        return view('components.slider-item');
+        return view('components.layout');
     }
 }

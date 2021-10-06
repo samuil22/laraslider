@@ -18,12 +18,15 @@ Route::get('/', function () {
 });
 
 */
-Route::get('/', [MainSlider::class,'indexFun'])->name('pro.inde');
+Route::get('/', [MainSlider::class,'indexFun'])->name('pro.inde'); 
 
 
 
 Route::get('/about', function () {
     return view('about');
+});
+Route::get('/service', function () {
+    return view('services');
 });
 Route::get('/contact', function () {
     return view('contact');

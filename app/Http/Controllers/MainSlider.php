@@ -36,6 +36,7 @@ class MainSlider extends Controller
                     ],
             
                 ];
+                
         
         return view('home',compact('item'));
     }
