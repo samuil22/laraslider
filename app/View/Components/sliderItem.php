@@ -7,14 +7,16 @@ use Illuminate\View\Component;
 class sliderItem extends Component
 {
     public $item;
+    public $ide;
     /**
      * Create a new component instance.
      *
      * @return void
      */
-    public function __construct($item)
+    public function __construct($item, $ide)
     {
         $this->item = $item;
+        $this->ide = $ide;
     }
 
     /**

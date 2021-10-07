@@ -7,16 +7,18 @@ use Illuminate\View\Component;
 class slider extends Component
 {
      
-     //public $item;
+    //  public $bordered;
+    public $showAtATime;
+     
     /**
      * Create a new component instance.
      *
      * @return void
      */
-    public function __construct()
+    public function __construct($showAtATime)
     {
-          
-         //$this->item = $item; 
+          $this->showAtATime = $showAtATime;
+        // $this->bordered = $bordered;
     }
 
     /**

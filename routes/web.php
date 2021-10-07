@@ -18,7 +18,7 @@ Route::get('/', function () {
 });
 
 */
-Route::get('/', [MainSlider::class,'indexFun'])->name('pro.inde'); 
+Route::get('/', [MainSlider::class,'indexFun']); 
 
 
 

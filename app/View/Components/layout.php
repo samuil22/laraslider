@@ -6,6 +6,7 @@ use Illuminate\View\Component;
 
 class layout extends Component
 {
+    
     /**
      * Create a new component instance.
      *
@@ -13,7 +14,7 @@ class layout extends Component
      */
     public function __construct()
     {
-        //
+       
     }
 
     /**

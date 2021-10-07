@@ -36,8 +36,10 @@ class MainSlider extends Controller
                     ],
             
                 ];
+
+            $showattime = array('2');
                 
         
-        return view('home',compact('item'));
+        return view('home',compact('item','showattime'));
     }
 }
